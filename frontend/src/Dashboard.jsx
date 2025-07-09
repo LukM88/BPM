@@ -104,6 +104,8 @@ function Dashboard() {
       ) : (
         <button onClick={addReading}>Dodaj</button>
       )}
+      
+      <h3>Ciśnienie</h3>
       <ResponsiveContainer width="100%" height={300}>
         <AreaChart
           data={readings.map((r) => ({
